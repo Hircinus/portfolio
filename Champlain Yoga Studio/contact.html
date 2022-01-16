@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact - Champlain Yoga Studio</title>
+  <link rel="stylesheet" type='text/css' href="style.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <h1>Champlain Yoga Studio</h1>
+    </header>
+    <nav>
+      <img width="200" height="200" class="nav-logo" src="images/yogalogo.png">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Contact</h2>
+      <h3>Contact Champlain Yoga Studio</h3>
+      <p>Fill out the form below to contact Champlain Yoga Studio. All information is required.</p>
+      <form method="POST" action="https://webdevbasics.net/scripts/yoga.php">
+        <label for="name">Name: </label>
+        <input required name="name">
+        <label for="email">Email: </label>
+        <input required name="email" type="email">
+        <label for="reason">How did you hear about us? </label>
+        <select required name="reason">
+          <option value="google">Google</option>
+          <option value="bing">Bing</option>
+          <option value="facebook">Facebook by Meta &copy;</option>
+          <option value="friend">Friend</option>
+        </select>
+        <label for="comments">Comments: </label>
+        <textarea required name="comments"></textarea>
+        <input required type="submit" name="submit" value="Submit">
+      </form>
+    </main>
+    <div class="footer">
+      <footer>
+        <small><i>Copyright &copy; 2021 Champlain Yoga Studio</i><br>
+        Email us <a href="mailto:yoga@champlainyoga.com">yoga@champlainyoga.com</a></small>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
+<!--
+<style>
+  body { background-color: #E2FFFF; color: #15495E; margin: 0 10% 0 10%; }
+  h1 { background-color: #237B7B; color: #E2FFFF; }
+  h2 { background-color: rgba(255, 0, 0, 0.7); color: #E2FFFF; }
+</style>
+-->
