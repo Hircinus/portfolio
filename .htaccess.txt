@@ -1,0 +1,3 @@
+# ERROR xxx REDIRECT URL
+ErrorDocument 404 /portfolio/layouts/404.php
+ErrorDocument 500 /portfolio/layouts/500.php
