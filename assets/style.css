@@ -10,6 +10,8 @@ body:not(.is-home) {
 
 .column:first-child .content p, .column:first-child .content div, .column:first-child .content h3, .column:first-child .content iframe {
   margin-left: 25px;
+}  .column:first-child .content ul {
+  margin-left: 50px;
 }
 iframe {
   border-radius: 10px;
